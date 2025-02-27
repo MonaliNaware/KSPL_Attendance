@@ -1,0 +1,2 @@
+cd C:\Users\Admin\eclipse-workspace\belgiumcut\KSPL_Attendance
+mvn test
