@@ -68,7 +68,7 @@ public class TC002_LoginDDT extends BaseClass{
 		
 		if(res.equalsIgnoreCase("invalid"))
 		{
-			Thread.sleep(5000);
+			Thread.sleep(3000);
 			lp.isInvalidErrorMsgDisplayed();
 			Assert.assertTrue(true);
 		}

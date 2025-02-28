@@ -1,5 +1,7 @@
 package testCases;
 
+import static org.testng.Assert.*;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -25,7 +27,7 @@ public class TC001_LoginTest extends BaseClass{
 		AttendancePage ap=new AttendancePage(driver);
 		boolean targetPage=ap.isAttendancePageExists();
 		
-		Assert.assertTrue(targetPage);//Assert.assertEquals(targetPage, true, "Login failed");
+		assertTrue(targetPage);//assertEquals(targetPage, true, "Login failed");
 		//driver.close();
 		}
 		catch(Exception e)
