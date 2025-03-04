@@ -13,7 +13,7 @@ public class TC003_CreateUserTest extends BaseClass{
 	@Test(groups= {"Regression","Master"})
 	public  void verify_userCreation() throws InterruptedException
 	{
-		logger.info("***** TC003_CreateUserTest *****");
+		logger.info("***** Starting TC003_CreateUserTest *****");
 
 		try
 		{

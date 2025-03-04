@@ -35,6 +35,13 @@ WebElement btnAddOrUpdate;
 @FindBy(xpath="//p[normalize-space()='Profile']") 
 WebElement btnProfile;
 
+@FindBy(xpath="//p[normalize-space()='Public Holiday']") 
+WebElement drpdwnPublicHoliday;
+
+@FindBy(xpath="//a[@href='https://attendance-demo.ourattendance.com/holiday']")
+WebElement btnListPH;
+
+
 public boolean isAttendancePageExists()
 {
 	try
@@ -76,5 +83,17 @@ public void clickProfile()
 {
 	btnProfile.click();
 }
+
+public void drpdwnPublicHoliday()
+{
+	drpdwnPublicHoliday.click();
+}
+
+public void clickListPH()
+{
+	btnListPH.click();
+}
+
+
 
 }
